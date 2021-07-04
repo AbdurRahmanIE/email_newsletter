@@ -19,7 +19,11 @@ body{
   text-align: left;
   background-color: rgb(210, 194, 236);
   color: #086079;
+}
+.col-2{
   float: left;
+  width: 500%;
+  max-width: 28vw;
 }
 .hotMug{
   width: 100%;
@@ -37,6 +41,35 @@ body{
   text-align: center;
 }
 img{
-  max-width: 100%;
+  width: 100%;
+  max-width: 15vw;
   height: auto;
+}
+.tmplt{
+  row-gap: 10px;
+  display: block;
+  background-position: center;
+  margin: 2vh;
+}
+.tmplt_split{
+  float: left;
+  width: 33.3%;
+  box-shadow: 0 4px 25px rgba(14,36,49,.2);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 3px;
+}
+.tmplt_split img{
+  transition: 1s;
+  cursor: pointer;
+}
+.tmplt_split img:hover{
+  transform: scale(1.1);
+}
+.footer{
+  width: 100%;
+  height: 10vh;
+  border-spacing: 0;
+  display: inline-block;
+  margin-top: 20px;
 }
